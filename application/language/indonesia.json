@@ -777,7 +777,5 @@
     "question_has_been_updated": "Question has been updated",
     "upload_video": "Upload video",
     "has_been_added_successfully": "Has been added successfully",
-    "sign-up": "Sign-up",
-    "sign_in": "Sign in",
-    "do_not_have_an_account_": "Do not have an account "
+    "invalid_lesson_url_and_duration": "Invalid lesson url and duration"
 }

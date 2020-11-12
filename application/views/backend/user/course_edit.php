@@ -333,7 +333,7 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
                                         <div class="col-md-10">
                                             <select class="form-control select2" data-toggle="select2" name="course_overview_provider" id="course_overview_provider">
                                                 <option value="youtube" <?php if ($course_details['course_overview_provider'] == 'youtube')echo 'selected';?>><?php echo get_phrase('youtube'); ?></option>
-                                                <option value="vimeo" <?php if ($course_details['course_overview_provider'] == 'vimeo')echo 'selected';?>><?php echo get_phrase('vimeo'); ?></option>
+                                                <!--<option value="vimeo" <?php if ($course_details['course_overview_provider'] == 'vimeo')echo 'selected';?>><?php echo get_phrase('vimeo'); ?></option>-->
                                                 <option value="html5"><?php echo get_phrase('HTML5'); ?></option>
                                             </select>
                                         </div>

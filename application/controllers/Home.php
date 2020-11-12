@@ -108,7 +108,7 @@ class Home extends CI_Controller {
         $page_data['course_id'] = $course_id;
         $page_data['page_name'] = "course_page";
         $page_data['page_title'] = get_phrase('course');
-        $this->load->view('frontend/'.get_frontend_settings('theme').'/index', $page_data);
+        $this->load->view('frontend/'.get_frontend_settings('theme').'/course_page', $page_data);
     }
 
     public function instructor_page($instructor_id = "") {

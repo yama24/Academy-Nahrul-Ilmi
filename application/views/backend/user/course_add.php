@@ -258,7 +258,7 @@
                                                 <div class="col-md-10">
                                                     <select class="form-control select2" data-toggle="select2" name="course_overview_provider" id="course_overview_provider">
                                                         <option value="youtube"><?php echo get_phrase('youtube'); ?></option>
-                                                        <option value="vimeo"><?php echo get_phrase('vimeo'); ?></option>
+                                                        <!--<option value="vimeo"><?php echo get_phrase('vimeo'); ?></option>-->
                                                         <option value="html5"><?php echo get_phrase('HTML5'); ?></option>
                                                     </select>
                                                 </div>

@@ -7,7 +7,7 @@
 				</a>
 			</div>
 			<div class="title">
-			<?php echo get_phrase('login'); ?>
+				Sign In
 			</div>
 			<div class="right"></div>
 		</div>
@@ -16,19 +16,19 @@
 		<!-- sign in -->
 		<div class="sign-in segments">
 			<div class="container">
-				<form class="list" action="<?php echo site_url('login/validate_login/user'); ?>" method="post">
+				<form class="list">
 					<ul>
 						<li class="item-content item-input">
 							<div class="item-inner">
 								<div class="item-input-wrap">
-									<input type="email" name = "email" id="login-email" placeholder="<?php echo get_phrase('email'); ?>" value="" required>
+									<input type="email" placeholder="Email">
 								</div>
 							</div>
 						</li>
 						<li class="item-content item-input">
 							<div class="item-inner">
 								<div class="item-input-wrap">
-									<input type="password" class="form-control" name = "password" placeholder="<?php echo get_phrase('password'); ?>" value="" required>
+									<input type="password" placeholder="Password">
 								</div>
 							</div>
 						</li>
@@ -37,18 +37,18 @@
 						<ul>
 							<li>
 								<label class="item-checkbox item-content">
-									<!-- <input type="checkbox"> -->
-									<!-- <i class="icon icon-checkbox"></i> -->
+									<input type="checkbox">
+									<i class="icon icon-checkbox"></i>
 									<div class="item-inner">
-										<!-- <div class="item-title">Remember me</div> -->
+										<div class="item-title">Remember me</div>
 									</div>
 								</label>
 							</li>
-							<li><a href="#"><?php echo get_phrase('forgot_password'); ?></a></li>
+							<li><a href="#">Forgot Password</a></li>
 						</ul>
 					</div>
 					<div class="content-button">
-						<button type="submit" class="button primary-button"><?php echo get_phrase('login'); ?></button>
+						<a href="#" class="button primary-button">Sign In</a>
 					</div>
 				</form>
 
@@ -56,7 +56,7 @@
 				<div class="divider-space-content"></div>
 				<!-- end divider -->
 
-				<!-- <div class="wrap-sign-in-with">
+				<div class="wrap-sign-in-with">
 					<div class="title">
 						<p>or sign in with</p>
 						<span></span>
@@ -86,13 +86,14 @@
 							</div>
 						</div>
 					</div>
-				</div> -->
+				</div>
+
 				<!-- divider -->
 				<div class="divider-space-content"></div>
 				<!-- end divider -->
 
 				<div class="wrap-link-sign-in">
-					<p><?php echo get_phrase('do_not_have_an_account '); ?> <a href="/sign-up/"><?php echo get_phrase('sign_up'); ?></a></p>
+					<p>Don't have an account? <a href="/sign-up/">Sign Up</a></p>
 				</div>
 			</div>
 		</div>

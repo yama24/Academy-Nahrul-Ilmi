@@ -196,7 +196,11 @@ menu code was here
 
 
 
-
+.asdasd{
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+}
 
 .search-box{
     margin-right: 50px;
